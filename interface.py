@@ -14,13 +14,13 @@ pygame.init()
 
 # Set up the drawing window
 screen = pygame.display.set_mode([300, 300])
-obstacle = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/wall.png")
-terre = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/floor.png")
-box = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/box.png")
-box_docked = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/box_docked.png")
-robot = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/worker.png")
-worker_docked = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/X.png")
-docker = pygame.image.load("C:/Users/21354/Desktop/TPs MIV/RP/SOKOPUZZLE/sokoban-working/images/dock.png")
+obstacle = pygame.image.load("images/wall.png")
+terre = pygame.image.load("images/floor.png")
+box = pygame.image.load("images/box.png")
+box_docked = pygame.image.load("images/box_docked.png")
+robot = pygame.image.load("images/worker.png")
+worker_docked = pygame.image.load("images/X.png")
+docker = pygame.image.load("images/dock.png")
 
 # Run until the user asks to quit
 running = True
